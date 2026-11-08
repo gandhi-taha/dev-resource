@@ -1,9 +1,12 @@
-# Dev-Resource
-A list of frameworks, libraries and tools mostly JavaScript. I used/want to use for building things on the web.
+# dev-resource
+
+A list of front-end frameworks, libraries and tools, mostly JavaScript, that I used or wanted to try for building things on the web.
+
+It started in November 2020 as a copy of Moritz Klack's [frontend-stuff](https://github.com/moklick/frontend-stuff) list (CC0), and I haven't updated it since. I keep it as a reference. Some of these projects are no longer maintained and some links may be dead. The original list is still updated, so check it for a current version.
 
 ## Table of Contents
 - [CSS/UI Frameworks](#cssui-frameworks)
-- [Frontend Frameworks/UI Component Libraries](#frontend-frameworks-ui-component-libraries)
+- [Frontend Frameworks and UI Component Libraries](#frontend-frameworks-and-ui-component-libraries)
 - [Allrounder](#allrounder-jquery-like) (jQuery like)
 - [Charts](#charts)
 - [Maps](#maps)
@@ -67,28 +70,28 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [tachyons](http://tachyons.io/) - Modular UI framework
 - [tacit](https://github.com/yegor256/tacit) - CSS framework without classes
 - [uikit](http://getuikit.com/index.html) - A lightweight and modular front-end framework
-- [wing](https://github.com/KingPixil/wing/) - Minimal CSS framework
+- [wing](https://github.com/kbrsh/wing) - Minimal CSS framework
 
 
-### Frontend Frameworks/ Ui Component Libraries
-- [Angular](https://angularjs.org/) - HTML enhanced for web apps
+### Frontend Frameworks and UI Component Libraries
+- [AngularJS](https://angularjs.org/) - HTML enhanced for web apps (end of life since 2022, replaced by [Angular](https://angular.dev/))
 - [Aurelia](http://aurelia.io/) - UI framework for the browser, mobile or desktop apps
-- [choo](https://github.com/yoshuawuyts/choo) - Isomorphic, single state, functional frontend framework
+- [choo](https://github.com/choojs/choo) - Isomorphic, single state, functional frontend framework
 - [deku](https://github.com/anthonyshort/deku) - Library for rendering interfaces using pure functions and virtual DOM
 - [DisplayJS](https://github.com/arguiot/DisplayJS) - A simple JavaScript framework for building ambitious UIs
 - [hyperapp](https://github.com/hyperapp/hyperapp) - Micro-framework for building web applications
-- [inferno](https://github.com/trueadm/inferno) - Isomorphic library for building high-performance user interfaces
+- [inferno](https://github.com/infernojs/inferno) - Isomorphic library for building high-performance user interfaces
 - [jsblocks](https://github.com/astoilkov/jsblocks) - MV-ish framework for single page apps
 - [mercury](https://github.com/Raynos/mercury) - Modular frontend framework
-- [mithril](https://github.com/lhorie/mithril.js/) - Client-side MVC framework
+- [mithril](https://github.com/MithrilJS/mithril.js) - Client-side MVC framework
 - [Moon](https://kbrsh.github.io/moon/) - Minimal UI library 
-- [preact](https://github.com/developit/preact) - React ES6 API + Components & Virtual DOM
-- [React](https://facebook.github.io/react/) - Library for building user interfaces
+- [preact](https://github.com/preactjs/preact) - React ES6 API + Components & Virtual DOM
+- [React](https://react.dev/) - Library for building user interfaces
 - [RE:DOM](https://github.com/pakastin/redom) - Library for creating user interfaces
 - [react-lite](https://github.com/Lucifier129/react-lite) - Implementation of React that optimizes for small script size
 - [riot](http://riotjs.com/) - User interface micro-library
 - [skatejs](https://github.com/skatejs/skatejs) - Web component library
-- [Solid](https://github.com/ryansolid/solid) -  declarative and flexible library for building user interfaces
+- [Solid](https://github.com/solidjs/solid) - Declarative and flexible library for building user interfaces
 - [svelte](https://github.com/sveltejs/svelte) - The magical disappearing UI framework
 - [vue](https://github.com/vuejs/vue) - Library for building web interfaces
 
@@ -105,7 +108,6 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 
 ### Charts
 - [chartist](http://gionkunz.github.io/chartist-js/) - Simple responsive charts
-- [charts](https://github.com/frappe/charts) - SVG Charts with zero dependencies
 - [chartjs](http://www.chartjs.org/) - Simple, clean and engaging charts for designers and developers
 - [chart.xkcd](https://timqian.com/chart.xkcd/) - Chart library for "sketchy" or "cartoony" styled charts
 - [Cytoscape.js](http://js.cytoscape.org/) - Graph theory / network library for analysis and visualisation
@@ -113,11 +115,11 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [dc](http://dc-js.github.io/dc.js/) - For heavy amounts of data
 - [dimple](http://dimplejs.org) - An object-oriented API for business analytics powered by d3
 - [D3xter](https://github.com/NathanEpstein/D3xter) - Straight forward plotting built on D3
-- [ECharts](http://echarts.baidu.com/index-en.html) - Charting library and interactive data visualization tool
+- [ECharts](https://echarts.apache.org/) - Charting library and interactive data visualization tool
 - [epoch](http://epochjs.github.io/epoch) - A general purpose, real-time visualization library
 - [f2](https://github.com/antvis/f2) - Interactive and flexible charting library for mobile
 - [flowchart.js](http://adrai.github.io/flowchart.js) - Draws flow charts from textual representation of the diagram
-- [Frappe](https://frappe.io/charts) - SVG charts for the web with zero dependencies
+- [Frappe Charts](https://github.com/frappe/charts) - SVG charts for the web with zero dependencies
 - [ggraph](https://github.com/pcbje/ggraph) - Graph visualization of big messy data
 - [jsplumb](http://jsplumbtoolkit.com/) - Visual connectivity for webapps (flowcharts, sequence diagrams, etc)
 - [metricsgraphics](http://metricsgraphicsjs.org/) - Optimized for visualizing time-series data
@@ -126,10 +128,10 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [nvd3](http://nvd3.org/) - Re-usable charts and chart components for d3.js
 - [peity](http://benpickles.github.io/peity/) - Progressive mini \<svg\> pie, donut, bar and line charts
 - [sparkline](http://omnipotent.net/jquery.sparkline/) - Sparkline charts library
-- [sparky](http://prag.ma/code/sparky/) - Sparkline charts library based on rapahel
+- [sparky](http://prag.ma/code/sparky/) - Sparkline charts library based on Raphael
 - [taucharts](http://www.taucharts.com/) - Charts with a focus on design and flexibility
 - [timesheet.js](https://sbstjn.github.io/timesheet.js/) - HTML5 & CSS3 time sheets
-- [tui.chart](https://github.com/nhnent/tui.chart) - Data visualization library with IE8 support
+- [tui.chart](https://github.com/nhn/tui.chart) - Data visualization library with IE8 support (archived)
 - [uPlot](https://github.com/leeoniya/uPlot) - Canvas based chart for time series, lines, areas, ohlc & bars
 - [uvCharts](https://github.com/imaginea/uvCharts) - Simple, robust, extensible charting library built using d3
 - [vis.js](http://visjs.org/) - A dynamic, browser based visualization library
@@ -147,11 +149,11 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [mapmap.js](https://github.com/floledermann/mapmap.js) - A data-driven API for interactive thematic maps
 - [mapsicon](https://github.com/djaiss/mapsicon) - Collection of maps for nearly every country in the world in PNG and SVG
 - [osmbuildings](http://osmbuildings.org/) - Library for visualizing buildings as pseudo 3D objects on interactive maps
-- [openlayers3](http://openlayers.org/) - Mapping library that supports different projections
+- [OpenLayers](https://openlayers.org/) - Mapping library that supports different projections
 - [planetary](http://planetaryjs.com/) - Interactive globes for the web
 - [smallworld](http://mikefowler.me/smallworld.js/) - A small utility for generating a small world
-- [Tangram](https://mapzen.com/products/tangram/) - WebGL based map renderer
-- [topojson](https://github.com/mbostock/topojson) - An extension to GeoJSON that encodes topology
+- [Tangram](https://github.com/tangrams/tangram) - WebGL based map renderer
+- [topojson](https://github.com/topojson/topojson) - An extension to GeoJSON that encodes topology
 - [turf](http://turfjs.org/) - A modular geospatial engine
 
 
@@ -171,7 +173,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 ### Selects
 - [awesomplete](https://leaverou.github.io/awesomplete/) - Lightweight autocomplete
 - [chosen](https://harvesthq.github.io/chosen/) - Library for making long, unwieldy select boxes more friendly
-- [select2](https://select2.github.io/) - JQuery based replacement for select boxes
+- [select2](https://select2.github.io/) - jQuery based replacement for select boxes
 
 
 
@@ -192,8 +194,8 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [nouislider](https://refreshless.com/nouislider/) - Range slider
 - [nudge](https://www.npmjs.com/package/mlbz-nudge) - Provides simple on-screen nudges / notifications
 - [Slideout.js](http://mango.github.io/slideout/) - A touch slideout navigation menu for mobile web apps
-- [Sortable.js](http://rubaxa.github.io/Sortable/) - Reorderable drag-and-drop lists
-- [SweetAlert](https://t4t5.github.io/sweetalert/) - An awesome replacement for JavaScript's alert
+- [Sortable.js](https://sortablejs.github.io/Sortable/) - Reorderable drag-and-drop lists
+- [SweetAlert](https://sweetalert.js.org/) - An awesome replacement for JavaScript's alert
 - [Toastr](http://codeseven.github.io/toastr/) - Simple toast notifications
 - [vex](http://github.hubspot.com/vex/docs/welcome/) - A modern dialog library which is highly configurable and easy to style
 
@@ -206,7 +208,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [Siema](https://pawelgrzybek.com/siema/) - Carousel with no dependencies
 - [slick](http://kenwheeler.github.io/slick/) - Fully responsive carousel (needs zepto or jquery)
 - [swipe](https://github.com/lyfeyaj/swipe) - Touch slider with React and Angular support
-- [swiper](http://www.idangero.us/swiper/) - Slider with touch support
+- [swiper](https://swiperjs.com/) - Slider with touch support
 
 
 ### Typography/Text
@@ -215,23 +217,23 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [Blotter](https://blotter.js.org/) - Unconventional text effects for the web
 - [dropcap.js](https://github.com/adobe-webplatform/dropcap.js) - CSS dropcaps
 - [fitty](https://github.com/rikschennink/fitty) - Scales text so it fits to its parent container
-- [flowtype](http://simplefocus.com/flowtype/) - Responsive typography
+- [flowtype](https://github.com/simplefocus/FlowType.JS) - Responsive typography
 - [grande.js](https://github.com/mduvall/grande.js) - Library that implements features from Medium's editing experience
 - [lining.js](https://github.com/zmmbreeze/lining.js) - A complete DOWN-TO-THE-LINE control for radical web typography
-- [lettering](http://letteringjs.com/) - JQuery web typography plugin
+- [lettering](http://letteringjs.com/) - jQuery web typography plugin
 - [pen](http://sofish.github.io/pen) - Editor with markdown support
-- [Plumin.js](http://www.pluminjs.com/) - Create and manipulate fonts using javascript
+- [Plumin.js](https://github.com/byte-foundry/plumin.js) - Create and manipulate fonts using javascript
 - [shave](https://dollarshaveclub.github.io/shave/) - Plugin for truncating text within an html element
 - [side-comments](http://aroc.github.io/side-comments-demo/) - Medium style comments
 - [slabText](https://github.com/freqdec/slabText) - jQuery plugin for producing big, bold & responsive headlines
-- [smart underline](https://eager.io/showcase/SmartUnderline/) - Descender-aware underlines for every browser
-- [typeahead.js](http://twitter.github.com/typeahead.js) - Foundation for building robust typeaheads
+- [smart underline](https://github.com/cloudflare-apps/smart-underline) - Descender-aware underlines for every browser
+- [typeahead.js](https://twitter.github.io/typeahead.js/) - Foundation for building robust typeaheads
 - [Typeplate](http://typeplate.com/) - A typographic starter kit
 - [Typeset.js](https://github.com/davidmerfield/typeset) - HTML pre-processor for web typography
 
 ### Video
 - [Fitvid](http://fitvidsjs.com/) - Responsive videos
-- [medialementjs](http://mediaelementjs.com/) - Video and audio handling
+- [MediaElement.js](http://mediaelementjs.com/) - Video and audio handling
 - [Plyr](http://plyr.io/) - A simple HTML5 media player with custom controls and WebVTT captions
 - [talkie](https://github.com/kiln/talkie) - Combines audio and animations
 - [Videojs](http://www.videojs.com/) - Open source HTML5 video player
@@ -246,7 +248,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [soundjs](http://createjs.com/SoundJS) - Audio library + simple interface
 - [timbre.js](http://mohayonao.github.io/timbre.js/) - Library for Objective Sound Programming
 - [tone.js](https://github.com/Tonejs/Tone.js) - Framework for interactive music
-- [tonal](https://github.com/danigb/tonal) - A functional music theory library
+- [tonal](https://github.com/tonaljs/tonal) - A functional music theory library
 - [vexflow](http://www.vexflow.com/) - Library for rendering music notation
 - [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js) - Navigable waveform
 
@@ -256,7 +258,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [Easeljs](http://www.createjs.com/easeljs) - Library for building canvas based interactive 2D content
 - [Fabric.js](http://fabricjs.com/) - Canvas Library, SVG-to-Canvas (& Canvas-to-SVG) Parser
 - [GraphicsJS](http://www.graphicsjs.org/) - Graphics library with an intuitive API, based on SVG/VML technology
-- [Konva](http://konvajs.github.io/) - Framework that extends the 2d context by enabling canvas interactivity
+- [Konva](https://konvajs.org/) - Framework that extends the 2d context by enabling canvas interactivity
 - [panzoom](https://github.com/anvaka/panzoom) - Pan and zoom SVG elements
 - [Paper.js](http://paperjs.org/) - Canvas based vector graphics scripting framework
 - [Paths.js](https://github.com/andreaferretti/paths-js) - Generate SVG paths for geometric shapes
@@ -265,7 +267,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [Raphael](http://raphaeljs.com/) - Library that simplify your work with vector graphics on the web
 - [Rough.js](https://roughjs.com/) - Create graphics with a hand-drawn, sketchy, appearance
 - [rune.js](http://runemadsen.github.io/rune.js/index.html) - A Library for programming graphic design systems with SVG
-- [svg.js](https://github.com/wout/svg.js) - A Library for manipulating and animating SVG
+- [svg.js](https://github.com/svgdotjs/svg.js) - A Library for manipulating and animating SVG
 - [svg-3d-builder](https://github.com/captainwz/svg-3d-builder) - Tool to create 3d model with svg 
 - [two.js](https://jonobr1.github.io/two.js/) -  A two-dimensional drawing api
 - [vizflow](https://github.com/vizflow/vizflow) - Interactive visualization engine
@@ -274,7 +276,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 ### 3D/WebGL Frameworks
 - [babylonJS](http://babylonjs.com/) - Framework for building 3D games with HTML5, WebGL and Web Audio
 - [sceneJS](http://scenejs.org/) - WebGL-based 3D visualization engine
-- [three.js](https://threejs.org/)- 3D Library which makes WebGL simpler
+- [three.js](https://threejs.org/) - 3D Library which makes WebGL simpler
 - [voxel.js](http://voxeljs.com/) - Voxel game building toolkit
 - [WhitestormJS](https://whsjs.io/#/) - Framework for developing 3D web apps with physics
 
@@ -300,20 +302,20 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [Hammer.js](http://hammerjs.github.io/) - Add support for touch gestures and remove 300ms delay from clicks
 
 ### Animations
-- [animate.css](https://daneden.github.io/animate.css/) - A cross-browser library of CSS animations
+- [animate.css](https://animate.style/) - A cross-browser library of CSS animations
 - [Animate Plus](https://github.com/bendc/animateplus) - Tiny (2 KB minified and gzipped) animation library
-- [Anime](http://anime-js.com/) - Anime is a flexible yet lightweight animation library
+- [Anime](https://animejs.com/) - Anime is a flexible yet lightweight animation library
 - [bounce.js](http://bouncejs.com/) - CSS3 powered animations
 - [choreographer](https://github.com/christinecha/choreographer-js) - Library to take care of complicated css animations
 - [Dynamics.js](http://dynamicsjs.com/) - Library to create physics-based CSS animations
-- [GSAP](https://greensock.com/gsap) - Fast animation library
+- [GSAP](https://gsap.com/) - Fast animation library
 - [Hover.css](http://ianlunn.github.io/Hover/) - CSS3 Hover Effects
 - [impulse](http://impulse.luster.io/) - Dynamic physics interactions for the mobile web
 - [KUTE.js](http://thednp.github.io/kute.js/#) - animation engine, memory efficient & modular code
 - [mojs](http://mojs.io/) - Motion for the web
 - [popmotion](http://popmotion.io/) - Motion Engine. Use for animation, physics and input tracking.
 - [rebound](http://facebook.github.io/rebound-js/examples/) - Library that models Spring dynamics for driving physical animations
-- [repaintless](http://szynszyliszys.github.io/repaintless/)  - Animation library that consists of animations that don't cause reflows and repaints
+- [repaintless](http://szynszyliszys.github.io/repaintless/) - Animation library that consists of animations that don't cause reflows and repaints
 - [Scene.js](http://daybrush.com/scenejs/) - Timeline-based animation library
 - [semantic ui - transition](http://semantic-ui.com/modules/transition.html) - Simple CSS3 Animations and transitions
 - [Sequence.js](https://github.com/IanLunn/Sequence/) - Responsive CSS animation framework
@@ -322,7 +324,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [snapsvg](http://snapsvg.io/) - Library for animating and manipulating SVG's
 - [tween.js](https://github.com/tweenjs/tween.js) - Tweening engine
 - [velocity](http://velocityjs.org/) - Accelerated JavaScript animations
-- [vivus](https://maxwellito.github.io/vivus/) - Vivus is a lightweight JavaScript class (with no dependencies) that allows you to animate SVGs, giving them the appearence of being drawn
+- [vivus](https://maxwellito.github.io/vivus/) - Vivus is a lightweight JavaScript class (with no dependencies) that allows you to animate SVGs, giving them the appearance of being drawn
 
 ### Templating
 - [dotjs](https://olado.github.io/doT/) - Fast templating engine
@@ -336,18 +338,18 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 
 ### HTTP Requests
 - [aja](http://krampstudio.github.io/aja.js/) - Asynchronous JavaScript and JSON(P)
-- [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client
-- [d3-request](https://github.com/d3/d3-request) - A convenient alternative to XMLHttpRequest
+- [axios](https://github.com/axios/axios) - Promise based HTTP client
+- [d3-request](https://github.com/d3/d3-request) - A convenient alternative to XMLHttpRequest (deprecated, replaced by [d3-fetch](https://github.com/d3/d3-fetch))
 - [fetch](https://github.com/github/fetch) - A `window.fetch` javascript polyfill
 - [intercooler-js](http://intercoolerjs.org/) - Making AJAX as easy as anchor tags
 - [qwest](https://github.com/pyrsmk/qwest) - Ajax library with XHR2, promises and request limit
 - [reqwest](https://github.com/ded/reqwest) - Browser asynchronous HTTP requests
-- [superagent](https://visionmedia.github.io/superagent/) - Client-side HTTP request library
+- [superagent](https://github.com/forwardemail/superagent) - Client-side HTTP request library
 
 ### Events
 - [bean](https://github.com/fat/bean) - Events api
 - [gator.js](http://craig.is/riding/gators) - Simple event delegation
-- [EventEmitter2](https://github.com/asyncly/EventEmitter2) - Events API with wildcards
+- [EventEmitter2](https://github.com/EventEmitter2/EventEmitter2) - Events API with wildcards
 - [mitt](https://github.com/developit/mitt) - Tiny functional event emitter / pubsub
 
 ### Icons
@@ -356,21 +358,21 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [evil icons](http://evil-icons.io/) - Lightweight SVG icons
 - [Feather](https://feathericons.com/) - Simply beautiful open source icons
 - [flaticon](http://flaticon.com/) - Tens of thousands of free monochromatic icons in SVG, font, PNG.
-- [fontawesome](http://fortawesome.github.io/Font-Awesome/) - Gives you scalable vector icons that can instantly be customized
+- [fontawesome](https://fontawesome.com/) - Gives you scalable vector icons that can instantly be customized
 - [fontello](http://fontello.com/) - Icon fonts generator
 - [foundation icon font 3](http://zurb.com/playground/foundation-icon-fonts-3) - Foundation Zurb Icon Font 3
 - [Icomoon](https://icomoon.io/) - Website to custom build icon fonts
 - [ikonate](https://ikonate.com/) - Fully customisable & accessible vector icons
 - [ionicons](http://ionicons.com/) - The icon font for Ionic Framework
 - [material-design-icons](https://github.com/google/material-design-icons) - Material Design icons by Google
-- [octicons](https://octicons.github.com/) - Github icons
-- [the nounproject](http://thenounproject.com/) - Icon search
+- [octicons](https://primer.style/octicons/) - GitHub icons
+- [The Noun Project](https://thenounproject.com/) - Icon search
 - [weloveiconfonts](http://weloveiconfonts.com/) - A free & open source icon fonts hosting service
 
 ### Colors
 - [bootflat color picker](http://bootflat.github.io/color-picker.html) - Color picker for flat design
 - [Brand Colors](http://brandcolors.net) - Official color codes for the world's biggest brands
-- [chromajs](http://old.driven-by-data.net/about/chromajs/) - Library for all kinds of color manipulations
+- [chromajs](https://gka.github.io/chroma.js/) - Library for all kinds of color manipulations
 - [chromajs color scale helper](http://gka.github.io/palettes) - Tool to help us mastering multi-hued, multi-stops color scales
 - [coolors](http://coolors.co/) - Super fast color scheme generator
 - [color](http://color.hailpixel.com/) - Intuitive color picker
@@ -395,8 +397,7 @@ A list of frameworks, libraries and tools mostly JavaScript. I used/want to use 
 - [lovefield](https://github.com/google/lovefield) - SQL-like, relational query engine for the browser
 - [pouchdb](http://pouchdb.com/) - Created to help developers build applications that work as well offline as they do online
 - [rxdb](https://github.com/pubkey/rxdb) - Reactive, serverless, client-side, offline-first database
-- [store.js](https://github.com/marcuswestin/store.js/) - LocalStorage wrapper for all browsers without using cookies or 
-flash. Uses localStorage, globalStorage and userData behavior
+- [store.js](https://github.com/marcuswestin/store.js/) - LocalStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage and userData behavior
 - [taffydb](http://www.taffydb.com/) - Brings database features into your JavaScript applications
 - [ZangoDB](https://github.com/erikolson186/zangodb) - MongoDB-like interface for HTML5 IndexedDB
 
@@ -404,13 +405,13 @@ flash. Uses localStorage, globalStorage and userData behavior
 - [is.js](http://arasatasaygin.github.io/is.js/) - Micro check library
 - [Parsley](https://github.com/guillaumepotier/Parsley.js) - Easy Form validation
 - [validate.js](https://github.com/rickharrison/validate.js) - Form validation library inspired by CodeIgniter
-- [validator.js](https://github.com/chriso/validator.js) - String validation and sanitization
+- [validator.js](https://github.com/validatorjs/validator.js) - String validation and sanitization
 
 ### Dates
-- [datedropper](http://felicegattuso.com/projects/datedropper/) - JQuery plugin that provides a way to manage dates for input fields
+- [datedropper](http://felicegattuso.com/projects/datedropper/) - jQuery plugin that provides a way to manage dates for input fields
 - [dateformat](https://github.com/felixge/node-dateformat) - Library for formatting dates
 - [date-fns](https://github.com/date-fns/date-fns) - Toolset for manipulating dates
-- [flatpickr](https://chmln.github.io/flatpickr/) - Lightweight date time picker without dependencies 
+- [flatpickr](https://flatpickr.js.org/) - Lightweight date time picker without dependencies 
 - [instadate](https://github.com/teamweek/instadate) - A minimal date library
 - [luxon](https://github.com/moment/luxon) - A library for working with dates and times
 - [moment.js](http://momentjs.com/) - Parse, validate, manipulate, and display dates
@@ -445,11 +446,11 @@ flash. Uses localStorage, globalStorage and userData behavior
 - [Rollup](https://github.com/rollup/rollup) - ES6 module bundler with tree shaking abilities
 - [stealjs](http://stealjs.com/) - Dependency loader and builder
 - [Systemjs](https://github.com/systemjs/systemjs) - ES6, AMD and CommonJS loader
-- [webpack](http://webpack.github.io/) - CommonJs and AMD module loader
+- [webpack](https://webpack.js.org/) - CommonJs and AMD module loader
 
 ### Lazy Loading
 - [Aload](http://pazguille.github.io/aload/) - Asynchronously loads images, scripts, styles and more
-- [echo](http://toddmotto.com/labs/echo/) - Standalone lazy loading image micro-library
+- [echo](https://github.com/toddmotto/echo) - Standalone lazy loading image micro-library
 - [Lazy Progressive Enhancement](http://tylerdeitz.co/lazy-progressive-enhancement/) - A lazy image loader designed to enforce progressive enhancement and valid HTML
 - [layzr.js](http://callmecavs.github.io/layzr.js/) - Dependency-free library for lazy loading images
 - [lazysizes](https://github.com/aFarkas/lazysizes) - fast and self-initializing lazyloader for images, iframes and more
@@ -459,7 +460,7 @@ flash. Uses localStorage, globalStorage and userData behavior
 ### Neural Networks
 - [brain](https://github.com/harthur-org/brain) - Neural networks in JavaScript
 - [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) - Library for training Deep Learning models
-- [deeplearn.js](https://github.com/PAIR-code/deeplearnjs) - Hardware-accelerated machine intelligence library
+- [deeplearn.js](https://github.com/PAIR-code/deeplearnjs) - Hardware-accelerated machine intelligence library (now [TensorFlow.js](https://github.com/tensorflow/tfjs))
 - [dn2a-javascript](https://github.com/dn2a/dn2a-javascript) - Digital Neural Networks Architecture
 - [Mind](http://www.mindjs.net/) - Flexible neural networks
 - [neurojs](https://github.com/janhuenermann/neurojs) - Deep learning and reinforcement learning library
